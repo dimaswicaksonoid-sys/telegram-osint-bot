@@ -14,7 +14,7 @@ const MAX_RESULTS = 10;
 const db = new Database(DB_PATH, { readonly: true });
 db.pragma('cache_size = -32000');
 
-if (!BOT_TOKEN || BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
+if (!BOT_TOKEN || BOT_TOKEN === '9003761221:AAFnX4oEqHh1n0k6XS-3k1fDmOiPgeXFS6Q') {
   console.error('ERROR: BOT_TOKEN belum diset!');
   console.error('Buat file .env dengan isi: BOT_TOKEN=token_kamu');
   console.error('Atau: export BOT_TOKEN=token_kamu');
